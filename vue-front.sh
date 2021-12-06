@@ -1,6 +1,5 @@
 #!/bin/bash
-WORK_PATH='/usr/projects/vue-front'
-cd $WORK_PATH
+cd '../vue-front'
 echo "先清除老代码"
 git reset --hard origin/master
 git clean -f
